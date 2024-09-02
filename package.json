@@ -1,0 +1,24 @@
+{
+  "name": "mesh-sidecar-builder",
+  "version": "1.0.0",
+  "description": "sidecar builder for nodejs in service mesh",
+  "main": "index.js",
+  "directories": {
+    "src": "src"
+  },
+  "engines": {
+    "node": ">=10.15.0"
+  },
+  "keywords": ["service-mesh", "sidecar", "axios", "fetch", "micro-service"],
+  "author": "jh8w8m",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chokidar": "^3.5.3",
+    "node-fetch": "^2.6.7",
+    "request": "^2.88.2",
+    "semver": "^7.3.8",
+    "winston": "^3.8.2",
+    "winston-daily-rotate-file": "^4.7.1"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "test_consumer",
+  "version": "1.0.0",
+  "description": "consumer demo in service mesh",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-record": "node index.js >> log.txt"
+  },
+  "author": "jh8w8m",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "axios": "^0.27.2",
+    "koa": "^2.14.1",
+    "koa-logger": "^3.2.1",
+    "koa-static": "^5.0.0",
+    "node-fetch": "^2.6.7"
+  }
+}
